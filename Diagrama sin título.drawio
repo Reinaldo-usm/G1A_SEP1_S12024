@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-10T04:42:45.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="duAchsSob_IXFQ8J7agP" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-10T05:11:38.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="gjLzoaSIXNkzLrXDGyzM" version="24.5.2" type="github">
   <diagram name="Página-1" id="Ia3Cc2sFgOf9JjpftwZH">
-    <mxGraphModel dx="1009" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1836" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,6 +36,9 @@
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-26" target="a1qZ1Z9Rcn-P7U7oKMSJ-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-26" target="a1qZ1Z9Rcn-P7U7oKMSJ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-26" value="Definir modelo y contrastar con librería pandapower" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="440" width="120" height="60" as="geometry" />
         </mxCell>
@@ -43,26 +46,29 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-28" value="Simular el comportamiento de la tensión para la carga de la figura 1(a)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-33" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-30" target="a1qZ1Z9Rcn-P7U7oKMSJ-32">
-          <mxGeometry x="-1" y="125" relative="1" as="geometry">
-            <mxPoint x="-10" y="-50" as="offset" />
+          <mxGeometry x="-1" y="205" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-35" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-30" target="a1qZ1Z9Rcn-P7U7oKMSJ-34">
-          <mxGeometry x="-1" y="-100" relative="1" as="geometry">
-            <mxPoint x="-60" y="-20" as="offset" />
+          <mxGeometry x="-1" y="-92" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="610" />
+            </Array>
+            <mxPoint x="-60" y="-22" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-30" value="¿Coincide con los resultados teóricos?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="570" width="150" height="80" as="geometry" />
+          <mxGeometry x="460" y="570" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-32" target="a1qZ1Z9Rcn-P7U7oKMSJ-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-32" value="Calcular parámetros para realizar compensación shunt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="740" width="120" height="60" as="geometry" />
+          <mxGeometry x="475" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-34" target="a1qZ1Z9Rcn-P7U7oKMSJ-30">
           <mxGeometry relative="1" as="geometry">
@@ -73,10 +79,108 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-34" value="Revisar simulación y librerías" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="525" y="580" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-37" value="Realizar análisis de pérdidas" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="475" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-39" target="a1qZ1Z9Rcn-P7U7oKMSJ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-39" value="Modelar figura 1(b) a través del software de programación" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-41" target="a1qZ1Z9Rcn-P7U7oKMSJ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-41" value="Identificar las líneas saturadas o fuera de norma" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-46" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-43" target="a1qZ1Z9Rcn-P7U7oKMSJ-45">
+          <mxGeometry x="-0.1852" y="-15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-49" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-43" target="a1qZ1Z9Rcn-P7U7oKMSJ-48">
+          <mxGeometry x="0.0526" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-43" value="¿El modelos cumple con&lt;div&gt;&amp;nbsp;los&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;estándares y se encuentra fuera&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;de saturación?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="850" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-45" target="a1qZ1Z9Rcn-P7U7oKMSJ-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-190" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-45" value="Proponer un nuevo método para resolver este problema" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="865" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-48" target="a1qZ1Z9Rcn-P7U7oKMSJ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-48" value="Identificar las barras que están fuera de norma en estado normal o alerta" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-53" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-50" target="a1qZ1Z9Rcn-P7U7oKMSJ-52">
+          <mxGeometry x="-0.0909" y="13" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-57" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-50" target="a1qZ1Z9Rcn-P7U7oKMSJ-56">
+          <mxGeometry x="-0.3846" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-50" value="¿Funcionan las barras&lt;div&gt;en puntos de operación normados?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1165" width="180" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-52" target="a1qZ1Z9Rcn-P7U7oKMSJ-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-52" value="Implementar una medida en condiciones normales de operación y desconectar la línea 3A-2B" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1170" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-56" target="a1qZ1Z9Rcn-P7U7oKMSJ-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-56" value="Proponer medidas para llevar su operación a los puntos óptimos" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1357.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-62" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-59" target="a1qZ1Z9Rcn-P7U7oKMSJ-61">
+          <mxGeometry x="-0.7895" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-65" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-59" target="a1qZ1Z9Rcn-P7U7oKMSJ-50">
+          <mxGeometry x="-0.9057" y="-15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-59" value="¿Se encontraron por lo menos 3 métodos?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1332.5" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-61" target="a1qZ1Z9Rcn-P7U7oKMSJ-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-345" y="1189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-61" value="Buscar más soluciones para tener alternativas" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-405" y="1357.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-67" target="a1qZ1Z9Rcn-P7U7oKMSJ-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-67" value="Volver a conectar la línea e inyectar un 20% más de reactivos" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-69" value="Crear tantos escenarios como cargas y evaluar variaciones" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1495" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
