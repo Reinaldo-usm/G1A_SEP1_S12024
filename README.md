@@ -1,3 +1,2 @@
 # Tarea-1
-Thomas Prutzmann
-Reinaldo Zapata
+Thomas Prutzmann, Reinaldo Zapata
