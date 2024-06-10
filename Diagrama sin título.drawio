@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-10T04:30:31.805Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="MhuFFQBo8DEI3wRQxo7c" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-10T04:42:45.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="duAchsSob_IXFQ8J7agP" version="24.5.2" type="github">
   <diagram name="Página-1" id="Ia3Cc2sFgOf9JjpftwZH">
     <mxGraphModel dx="1009" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,6 +32,51 @@
         </mxCell>
         <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-22" target="a1qZ1Z9Rcn-P7U7oKMSJ-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-26" target="a1qZ1Z9Rcn-P7U7oKMSJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-26" value="Definir modelo y contrastar con librería pandapower" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-28" target="a1qZ1Z9Rcn-P7U7oKMSJ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-28" value="Simular el comportamiento de la tensión para la carga de la figura 1(a)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-33" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-30" target="a1qZ1Z9Rcn-P7U7oKMSJ-32">
+          <mxGeometry x="-1" y="125" relative="1" as="geometry">
+            <mxPoint x="-10" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-35" value="Si" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-30" target="a1qZ1Z9Rcn-P7U7oKMSJ-34">
+          <mxGeometry x="-1" y="-100" relative="1" as="geometry">
+            <mxPoint x="-60" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-30" value="¿Coincide con los resultados teóricos?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="570" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-32" target="a1qZ1Z9Rcn-P7U7oKMSJ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-32" value="Calcular parámetros para realizar compensación shunt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a1qZ1Z9Rcn-P7U7oKMSJ-34" target="a1qZ1Z9Rcn-P7U7oKMSJ-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="550" />
+              <mxPoint x="355" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-34" value="Revisar simulación y librerías" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1qZ1Z9Rcn-P7U7oKMSJ-37" value="Realizar análisis de pérdidas" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
